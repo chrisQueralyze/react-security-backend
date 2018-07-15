@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "queralyze-security-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,9 @@
     "dev": "npm run configure && nodemon ./bin/www"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": "https://github.com/chrisQueralyze/react-security-backend.git",
+  "author": "cwatson",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
