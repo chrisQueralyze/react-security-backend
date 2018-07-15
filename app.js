@@ -7,7 +7,7 @@ const user = require('./user');
 const app = express();
 
 const origin = process.env.MODE === 'production' ?
-  'https://fa-frontend.herokuapp.com' :
+  'https://queralyze-fa-frontend.herokuapp.com' :
   'http://localhost:1234';
 
 app.use(bodyParser.json());
